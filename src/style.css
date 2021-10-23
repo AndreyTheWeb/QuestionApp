@@ -56,3 +56,29 @@ button {
 .mui-textfield>input:invalid:not(:focus):required.mui--is-empty.mui--is-touched {
   border-color: #FF4081;
 }
+
+.floating-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.modal {
+  max-width: 600px;
+  max-height: 300px;
+  margin: 100px auto;
+  overflow: auto;
+  background: #ffffff;
+}
+
+.modal>h1 {
+  text-align: center;
+}
+
+.modal .modal-content {
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+}
